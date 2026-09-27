@@ -42,11 +42,14 @@ Full write-up and visualizations are in the notebook.
 - Jupyter Notebook
 
 ## Repository Structure
+
+​```
 spotify-track-popularity-analysis/
 ├── README.md
 ├── spotify_data_analysis_Project_1.ipynb
-├── data/ # raw CSVs (or a note on where to download them)
+├── data/                  # raw CSVs (or a note on where to download them)
 └── requirements.txt
+​```
 
 ## Running This Project
 
