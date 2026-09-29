@@ -17,7 +17,7 @@ This project examines whether explicit content, song duration, and artist follow
 **Source:** [Spotify Global Music Dataset (2009–2025)](https://www.kaggle.com/datasets/wardabilal/spotify-global-music-dataset-20092025) by Warda Bilal, via Kaggle (collected from the Spotify Web API).
 
 Two CSV files were merged into a single combined dataset (17,351 rows × 17 columns) after cleaning:
-- `spotify_data_clean.csv` — modern tracks (2025)
+- `spotify_data clean.csv` — modern tracks (2025)
 - `track_data_final.csv` — classic tracks (2009–2023)
 
 ## Methods
@@ -46,18 +46,19 @@ Full write-up and visualizations are in the notebook.
 ```
 spotify-track-popularity-analysis/
 ├── README.md
-├── spotify_data_analysis_Project_1.ipynb
-├── data/                  # raw CSVs (or a note on where to download them)
-└── requirements.txt
+├── spotify_data_analysis.jpynb.ipynb
+├── spotify_data_analysis.pdf
+├── spotify_data clean.csv
+└── track_data_final.csv
 ```
 
 ## Running This Project
 
 ```bash
-git clone https://github.com/<your-username>/spotify-track-popularity-analysis.git
+git clone https://github.com/gabep06/spotify-track-popularity-analysis.git
 cd spotify-track-popularity-analysis
-pip install -r requirements.txt
-jupyter notebook spotify_data_analysis_Project_1.ipynb
+pip install pandas numpy matplotlib seaborn jupyter
+jupyter notebook spotify_data_analysis.jpynb.ipynb
 ```
 
 ## Future Work
@@ -67,4 +68,4 @@ Build a predictive model (e.g., regression or gradient boosting) that estimates 
 ## Author
 
 Gabriel Pereira — B.S. Data Science, University of Tampa
-[www.linkedin.com/in/gabriel-pereira-05b593359] · [https://github.com/gabep06]
+[LinkedIn](http://www.linkedin.com/in/gabriel-pereira-05b593359) · [GitHub](https://github.com/gabep06)
