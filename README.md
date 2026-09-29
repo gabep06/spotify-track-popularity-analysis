@@ -46,7 +46,7 @@ Full write-up and visualizations are in the notebook.
 ```
 spotify-track-popularity-analysis/
 ├── README.md
-├── spotify_data_analysis.jpynb.ipynb
+├── spotify_data_analysis.ipynb
 ├── spotify_data_analysis.pdf
 ├── spotify_data clean.csv
 └── track_data_final.csv
@@ -58,7 +58,7 @@ spotify-track-popularity-analysis/
 git clone https://github.com/gabep06/spotify-track-popularity-analysis.git
 cd spotify-track-popularity-analysis
 pip install pandas numpy matplotlib seaborn jupyter
-jupyter notebook spotify_data_analysis.jpynb.ipynb
+jupyter notebook spotify_data_analysis.ipynb
 ```
 
 ## Future Work
